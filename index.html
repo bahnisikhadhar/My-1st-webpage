@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first webpage</title>
+    <style>
+       h1,h2,h3,h4,h5,h6 {
+            color:rgb(66, 8, 20) ;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            font-family: sans-serif;
+            color: rgb(66, 8, 20);
+            font-weight: bold;
+        }
+        .sourceImg {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color:rgb(173, 117, 147) ;">
     <h1>Online web tutorial</h1>
     <h2>Html tutorial</h2>
     <h3>Css tutorial</h3>
@@ -17,10 +34,12 @@
 
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quo!
     </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eos ad vitae molestias error nostrum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eos ad vitae molestias error nostrum.</p> <br>
     <!-- I am giving link of an website below using anchor tag -->
-    <a href="https://www.w3schools.com/">Click here to open w3school website</a>
-    <img src="coding image.jfif" alt="It's an image of coding">
-    
+    <a href="https://www.w3schools.com/" style="text-align: center;">
+        <pre> Click here to open w3school website </pre></a> <br>
+    <div class="sourceImg">
+    <img src="coding image.jfif" alt="It's an image of coding" >
+</div>
 </body>
 </html>
